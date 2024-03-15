@@ -6,13 +6,13 @@ public class first {
 	@Test
 	public void p()
 	{
-		System.out.println("first");
+		System.out.println("pehla");
 	}
 
 	@Test
 	public void pm()
 	{
 
-		System.out.println("second");
+		System.out.println("dusra");
 	}
 }
