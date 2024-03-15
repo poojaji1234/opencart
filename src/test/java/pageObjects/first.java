@@ -9,4 +9,10 @@ public class first {
 		System.out.println("first");
 	}
 
+	@Test
+	public void pm()
+	{
+
+		System.out.println("second");
+	}
 }
