@@ -2,16 +2,20 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-03-15T20:07:12 IST" name="Default suite" finished-at="2024-03-15T20:07:12 IST" duration-ms="70">
+  <suite started-at="2024-03-16T13:31:00 IST" name="Default suite" finished-at="2024-03-16T13:31:00 IST" duration-ms="74">
     <groups>
     </groups>
-    <test started-at="2024-03-15T20:07:12 IST" name="Default test" finished-at="2024-03-15T20:07:12 IST" duration-ms="70">
+    <test started-at="2024-03-16T13:31:00 IST" name="Default test" finished-at="2024-03-16T13:31:00 IST" duration-ms="74">
       <class name="pageObjects.first">
-        <test-method signature="p()[pri:0, instance:pageObjects.first@1189dd52]" started-at="2024-03-15T20:07:12 IST" name="p" finished-at="2024-03-15T20:07:12 IST" duration-ms="13" status="PASS">
+        <test-method is-config="true" signature="p()[pri:0, instance:pageObjects.first@145f66e3]" started-at="2024-03-16T13:31:00 IST" name="p" finished-at="2024-03-16T13:31:00 IST" duration-ms="14" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- p -->
-        <test-method signature="pm()[pri:0, instance:pageObjects.first@1189dd52]" started-at="2024-03-15T20:07:12 IST" name="pm" finished-at="2024-03-15T20:07:12 IST" duration-ms="2" status="PASS">
+        <test-method signature="cm()[pri:0, instance:pageObjects.first@145f66e3]" started-at="2024-03-16T13:31:00 IST" name="cm" finished-at="2024-03-16T13:31:00 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cm -->
+        <test-method signature="pm()[pri:0, instance:pageObjects.first@145f66e3]" started-at="2024-03-16T13:31:00 IST" name="pm" finished-at="2024-03-16T13:31:00 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- pm -->
