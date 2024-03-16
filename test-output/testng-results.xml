@@ -1,39 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-03-16T13:49:26 IST" name="Suite" finished-at="2024-03-16T13:49:34 IST" duration-ms="7812">
+  <suite started-at="2024-03-16T18:10:39 IST" name="Default suite" finished-at="2024-03-16T18:10:50 IST" duration-ms="10817">
     <groups>
     </groups>
-    <test started-at="2024-03-16T13:49:26 IST" name="Test" finished-at="2024-03-16T13:49:34 IST" duration-ms="7812">
-      <class name="pageObjects.second">
-        <test-method signature="p()[pri:0, instance:pageObjects.second@55141def]" started-at="2024-03-16T13:49:27 IST" name="p" finished-at="2024-03-16T13:49:34 IST" duration-ms="7706" status="PASS">
+    <test started-at="2024-03-16T18:10:39 IST" name="Default test" finished-at="2024-03-16T18:10:50 IST" duration-ms="10817">
+      <class name="pageObjects.DataProviderDemo">
+        <test-method is-config="true" signature="setup()[pri:0, instance:pageObjects.DataProviderDemo@5656be13]" started-at="2024-03-16T18:10:40 IST" name="setup" finished-at="2024-03-16T18:10:43 IST" duration-ms="3781" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- p -->
-      </class> <!-- pageObjects.second -->
-      <class name="pageObjects.first">
-        <test-method is-config="true" signature="s()[pri:0, instance:pageObjects.first@4d5d943d]" started-at="2024-03-16T13:49:26 IST" name="s" finished-at="2024-03-16T13:49:26 IST" duration-ms="20" status="PASS">
+        </test-method> <!-- setup -->
+        <test-method signature="testLogin(java.lang.String,java.lang.String)[pri:0, instance:pageObjects.DataProviderDemo@5656be13]" started-at="2024-03-16T18:10:43 IST" name="testLogin" data-provider="dp" finished-at="2024-03-16T18:10:47 IST" duration-ms="3702" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[poojadahiya9@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test@123]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- s -->
-        <test-method is-config="true" signature="p()[pri:0, instance:pageObjects.first@4d5d943d]" started-at="2024-03-16T13:49:26 IST" name="p" finished-at="2024-03-16T13:49:26 IST" duration-ms="0" status="PASS">
+        </test-method> <!-- testLogin -->
+        <test-method signature="testLogin(java.lang.String,java.lang.String)[pri:0, instance:pageObjects.DataProviderDemo@5656be13]" started-at="2024-03-16T18:10:47 IST" name="testLogin" data-provider="dp" finished-at="2024-03-16T18:10:50 IST" duration-ms="3083" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[poojadahiya9@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test@123]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- p -->
-        <test-method signature="pm()[pri:1, instance:pageObjects.first@4d5d943d]" started-at="2024-03-16T13:49:26 IST" name="pm" finished-at="2024-03-16T13:49:27 IST" duration-ms="10" status="PASS">
+        </test-method> <!-- testLogin -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:pageObjects.DataProviderDemo@5656be13]" started-at="2024-03-16T18:10:50 IST" name="teardown" finished-at="2024-03-16T18:10:50 IST" duration-ms="204" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- pm -->
-        <test-method signature="cm()[pri:2, instance:pageObjects.first@4d5d943d]" started-at="2024-03-16T13:49:27 IST" name="cm" finished-at="2024-03-16T13:49:27 IST" duration-ms="3" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- cm -->
-        <test-method is-config="true" signature="a()[pri:0, instance:pageObjects.first@4d5d943d]" started-at="2024-03-16T13:49:27 IST" name="a" finished-at="2024-03-16T13:49:27 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- a -->
-      </class> <!-- pageObjects.first -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- teardown -->
+      </class> <!-- pageObjects.DataProviderDemo -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

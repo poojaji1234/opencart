@@ -2,9 +2,25 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Suite">
   <test thread-count="5" name="Test">
+  <groups>
+  <run>
+  <include name="sanity"/>
+  </run>
+  </groups>
     <classes>
       <class name="pageObjects.first"/>
       <class name="pageObjects.second"/>
+      <class name="pageObjects.Grouping"/>
+        <class name="pageObjects.DataProviderDemo"/>
+      
     </classes>
   </test> <!-- Test -->
+  
+  <test name="Test1">
+  
+   <classes>
+  <class name="pageObjects.first"/>
+  <class name="pageObjects.second"/>
+  </classes>
+  </test>
 </suite> <!-- Suite -->

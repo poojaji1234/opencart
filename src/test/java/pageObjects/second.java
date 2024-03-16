@@ -9,7 +9,7 @@ public class second {
 	///public static void main(String[] args)
 	//{
 	@Test
-	public void p() {
+	public void vpo() {
 		
 	WebDriver driver=new ChromeDriver();
 	driver.get("https://www.flipkart.com");
