@@ -1,25 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-03-16T13:31:00 IST" name="Default suite" finished-at="2024-03-16T13:31:00 IST" duration-ms="74">
+  <suite started-at="2024-03-16T13:49:26 IST" name="Suite" finished-at="2024-03-16T13:49:34 IST" duration-ms="7812">
     <groups>
     </groups>
-    <test started-at="2024-03-16T13:31:00 IST" name="Default test" finished-at="2024-03-16T13:31:00 IST" duration-ms="74">
-      <class name="pageObjects.first">
-        <test-method is-config="true" signature="p()[pri:0, instance:pageObjects.first@145f66e3]" started-at="2024-03-16T13:31:00 IST" name="p" finished-at="2024-03-16T13:31:00 IST" duration-ms="14" status="PASS">
+    <test started-at="2024-03-16T13:49:26 IST" name="Test" finished-at="2024-03-16T13:49:34 IST" duration-ms="7812">
+      <class name="pageObjects.second">
+        <test-method signature="p()[pri:0, instance:pageObjects.second@55141def]" started-at="2024-03-16T13:49:27 IST" name="p" finished-at="2024-03-16T13:49:34 IST" duration-ms="7706" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- p -->
-        <test-method signature="cm()[pri:0, instance:pageObjects.first@145f66e3]" started-at="2024-03-16T13:31:00 IST" name="cm" finished-at="2024-03-16T13:31:00 IST" duration-ms="8" status="PASS">
+      </class> <!-- pageObjects.second -->
+      <class name="pageObjects.first">
+        <test-method is-config="true" signature="s()[pri:0, instance:pageObjects.first@4d5d943d]" started-at="2024-03-16T13:49:26 IST" name="s" finished-at="2024-03-16T13:49:26 IST" duration-ms="20" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- cm -->
-        <test-method signature="pm()[pri:0, instance:pageObjects.first@145f66e3]" started-at="2024-03-16T13:31:00 IST" name="pm" finished-at="2024-03-16T13:31:00 IST" duration-ms="2" status="PASS">
+        </test-method> <!-- s -->
+        <test-method is-config="true" signature="p()[pri:0, instance:pageObjects.first@4d5d943d]" started-at="2024-03-16T13:49:26 IST" name="p" finished-at="2024-03-16T13:49:26 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- p -->
+        <test-method signature="pm()[pri:1, instance:pageObjects.first@4d5d943d]" started-at="2024-03-16T13:49:26 IST" name="pm" finished-at="2024-03-16T13:49:27 IST" duration-ms="10" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- pm -->
+        <test-method signature="cm()[pri:2, instance:pageObjects.first@4d5d943d]" started-at="2024-03-16T13:49:27 IST" name="cm" finished-at="2024-03-16T13:49:27 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cm -->
+        <test-method is-config="true" signature="a()[pri:0, instance:pageObjects.first@4d5d943d]" started-at="2024-03-16T13:49:27 IST" name="a" finished-at="2024-03-16T13:49:27 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- a -->
       </class> <!-- pageObjects.first -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

@@ -3,11 +3,14 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.Test;
 
 public class second {
-	public static void main(String[] args)
-	{
-	
+	///public static void main(String[] args)
+	//{
+	@Test
+	public void p() {
+		
 	WebDriver driver=new ChromeDriver();
 	driver.get("https://www.flipkart.com");
 	
@@ -23,7 +26,8 @@ public class second {
       //  System.out.println((char)(ch+1));
     //}
 }
+}
 
 	
-}
-}
+//}
+
