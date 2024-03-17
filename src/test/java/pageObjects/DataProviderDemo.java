@@ -21,7 +21,7 @@ public class DataProviderDemo {
   
      driver=new ChromeDriver();
     // driver.get("https://demo.nopcommerce.com/login");  
-  Thread.sleep(2000);
+    Thread.sleep(2000);
 }
   
   @Test(dataProvider="dp")
@@ -44,7 +44,7 @@ public class DataProviderDemo {
   }
   
   @AfterClass
-  public void teardown()
+  public void teardownS()
   {
 	  driver.close();
   }
