@@ -44,7 +44,7 @@ public class DataProviderDemo {
   }
   
   @AfterClass
-  public void teardownS()
+  public void feardown()
   {
 	  driver.close();
   }
